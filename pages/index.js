@@ -15,7 +15,7 @@ export default props => {
 
   return (
     <>
-      <h1>Hme</h1>
+      <h1>Home</h1>
       <ul>
         {postList.map((p, key) => (
           <li key={key}>
