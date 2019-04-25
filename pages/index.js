@@ -11,7 +11,7 @@ export default props => {
   useEffect(() =>  {
     fetch('https://api.github.com/repos/mergeamelo/mergeamelo/contents/pages')
     .then(res => res.json())
-    .then(res => setPosts(res.filter(p => p.name !== 'index.js')))
+    .then(res => setPosts(res.filter(p => p.name !== 'index.js' && p. name !== '_app.js')))
   },[])
 
   return (
