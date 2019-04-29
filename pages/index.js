@@ -1,25 +1,18 @@
-import React, { useState, useEffect } from 'react'
-import Appbar from '../components/Appbar';
-import PostList from '../components/PostList'
+import React from 'react'
+import Appbar from '../components/Appbar'
+import PostsList from '../components/PostsList/PostsList'
 import Container from './../components/Container'
 import ContentContainer from '../components/ContentContainer'
 
+import posts from './../components/PostsList/posts'
+
 export default props => {
-
-  const [posts, setPosts] = useState(null)
-
-  useEffect(() =>  {
-    fetch('https://api.github.com/repos/mergeamelo/mergeamelo/contents/pages')
-    .then(res => res.json())
-    .then(res => setPosts(res.filter(p => p.name !== 'index.js' && p. name !== '_app.js')))
-  },[])
-
   return (
     <>
       <Appbar/>
         <Container>
           <ContentContainer>
-            <PostList posts={posts} />
+            <PostsList posts={posts} />
           </ContentContainer>
         </Container>
     </>
