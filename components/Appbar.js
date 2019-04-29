@@ -30,8 +30,8 @@ export default props => {
       <Drawer open={menuStatus} onClose={() => setMenuStatus(false)}>
         <List>
           <ListItem button>
-            <a href="https://github.com/mergeamelo/mergeamelo/projects" target="_blank">
-              <IosCompassOutline style={{ marginRight: '10px' }} /> Mergeamelo roadmap
+            <a style={{textDecoration: 'none'}} href="https://github.com/mergeamelo/mergeamelo/projects" target="_blank">
+              <IosCompassOutline style={{ marginRight: '10px', verticalAlign: 'bottom' }} /> Mergeamelo roadmap
             </a>
         </ListItem>
         </List>
