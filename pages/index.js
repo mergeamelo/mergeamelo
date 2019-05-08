@@ -5,7 +5,7 @@ import Container from './../components/Container'
 import ContentContainer from '../components/ContentContainer'
 
 import posts from './../components/PostsList/posts'
-import MergeameloInfo from '../components/MergeameloInfo';
+import MergeameloInfo from '../components/MergeameloInfo'
 
 export default props => {
 

@@ -7,4 +7,5 @@ export default props =>
     authorName="Sergio Zamarro" 
     twitter="zamarrowski"
     github="zamarrowski"
+    avatar="https://pbs.twimg.com/profile_images/1097088970771628032/lAcUoD9r_400x400.jpg"
   />

@@ -9,7 +9,7 @@ export default props =>
     <List style={{width: '100%'}}>
       <Spinner show={!props.posts}>
         {props.posts && props.posts.map((p, key) => (
-          <PostCard post={p}/>
+          <PostCard key={key} post={p}/>
         ))}
       </Spinner>
     </List>

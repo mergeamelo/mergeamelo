@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "@material-ui/core": "^3.9.3",
+    "disqus-react": "^1.0.5",
     "highlight.js": "^9.15.6",
     "next": "^8.1.0",
     "react": "^16.8.6",
