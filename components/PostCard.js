@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography'
 import Router from 'next/router'
 
 export default ({post}) =>
-<Card>
+<Card style={{marginTop: '20px'}}>
   <CardContent>
     <Typography style={{marginBottom: '10px'}} variant="h5" component="h2">
       {post.name}
@@ -18,6 +18,6 @@ export default ({post}) =>
     <Typography component="p">{post.description}</Typography>
   </CardContent>
   <CardActions style={{marginTop: '-10px'}}>
-    <Button onClick={() => Router.push(`/${post.fileName}`)} size="small">Leer más</Button>
+    <Button onClick={() => Router.push(`/${post.page}`)} size="small">Leer más</Button>
   </CardActions>
 </Card>

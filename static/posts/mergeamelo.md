@@ -24,6 +24,7 @@ export default props =>
     authorName="Tu nombre" 
     twitter="Tu usuario de twitter si tienes"
     github="Tu usuario de github si tienes"
+    avatar="rutaAlAvatar.png"
   />
 ```
 

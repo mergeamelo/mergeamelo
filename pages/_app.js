@@ -39,6 +39,10 @@ export default class Mergeamelo extends App {
                 width: 100%;
               }
 
+              .post img {
+                width: 100%;
+              }
+
               @media (min-width: 768px) {
                 .contentContainer {
                   width: 740px;

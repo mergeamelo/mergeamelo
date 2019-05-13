@@ -33,7 +33,9 @@ export default props => {
       <Appbar />
       <Container>
         <ContentContainer>
-          <ReactMarkdown source={post} />
+          <div className="post">
+            <ReactMarkdown source={post} />
+          </div>
           <Divider />
           <AuthorInfo
             authorName={props.authorName}
