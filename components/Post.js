@@ -11,11 +11,10 @@ import Disqus from 'disqus-react'
 export default props => {
 
   const [post, setPost] = useState('')
-
   const disqusConfig = {
     url: 'https://www.mergeamelo.com',
     identifier: props.fileName,
-    title: props.fileName,
+    title: 'mergeamelo',
   }
 
   useEffect(() => {
