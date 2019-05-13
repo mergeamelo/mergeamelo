@@ -35,8 +35,12 @@ export default class Mergeamelo extends App {
                 width: 100%;
               }  
               .contentContainer {
-                padding: 20px;
                 width: 100%;
+                padding: 20px;
+              }
+              
+              .post {
+                padding: 20px;
               }
 
               .post img {
