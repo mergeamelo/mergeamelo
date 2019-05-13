@@ -19,6 +19,7 @@ export default class Mergeamelo extends App {
       <Container>
         <Head>
           <title>Mergeamelo | Blog de programacion</title>
+          <link rel="icon" type="image/x-icon" href="/static/images/merge.png" />
           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"/>
           <link rel="stylesheet" href="/static/css/github.css"/>
           
