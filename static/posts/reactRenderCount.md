@@ -28,11 +28,8 @@ export default class CounterRender extends React.Component {
     this.count = 1
   }
 
-  componentWillUpdate() {
-    this.count++
-  }
-
   render() {
+    this.count++
     return (
       <>
         <Counter>{this.count}</Counter>
